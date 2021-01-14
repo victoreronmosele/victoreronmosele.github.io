@@ -1,0 +1,24 @@
+:root {
+    --text-logo-font-family: "Nova Square";
+    --body-font-family: 'Nunito';
+}
+
+body {
+    background-color: white;
+    font-family: var(--body-font-family);
+    margin: 24px;
+}
+
+.text-logo {
+    font-family: var(--text-logo-font-family);
+    color: #000;
+}
+
+#header-logo {
+    font-size: 24px;
+}
+
+#footer-logo {
+    font-size: 116px;
+    text-align: center;
+}
