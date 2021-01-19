@@ -6,7 +6,7 @@
 body {
     background-color: white;
     font-family: var(--body-font-family);
-    margin: 24px;
+    margin: 48px;
 }
 
 .text-logo {
@@ -19,6 +19,22 @@ body {
 }
 
 #footer-logo {
-    font-size: 116px;
+    font-size: 112px;
     text-align: center;
+}
+
+.highlighted-text {
+    /* color: black;
+    background-color: white;
+    text-decoration: underline; */
+
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+.highlighted-text:hover {
+    color: white;
+    background-color: black;
+    text-decoration: none;
 }
