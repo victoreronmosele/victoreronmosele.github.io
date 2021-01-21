@@ -6,7 +6,8 @@
 body {
     background-color: white;
     font-family: var(--body-font-family);
-    margin: 48px;
+    margin: 10vw;
+    font-size: 4vw;
 }
 
 .text-logo {
@@ -15,12 +16,13 @@ body {
 }
 
 #header-logo {
-    font-size: 24px;
+    font-size: 6vw;
 }
 
 #footer-logo {
-    font-size: 112px;
+    font-size: 7.7vw;
     text-align: center;
+    margin-top: 10vh;
 }
 
 .highlighted-text {
@@ -31,4 +33,19 @@ body {
 
 .highlighted-text:hover {
     background-color: #228b22;
+}
+
+@media (min-width: 640px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 1.5vw;
+    }
+    #header-logo {
+        font-size: 3vw;
+    }
 }
