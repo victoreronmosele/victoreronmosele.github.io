@@ -6,7 +6,7 @@
 body {
     background-color: white;
     font-family: var(--body-font-family);
-    margin: 10vw;
+    margin: 2.5vw 2.5vw 0px 2.5vw;
     font-size: 4vw;
     line-height: 1.5;
 }
@@ -16,6 +16,14 @@ body {
     color: #000;
 }
 
+#main {
+    margin-bottom: 10vh;
+}
+
+#copy {
+    margin-bottom: 8vh;
+}
+
 #header-logo {
     font-size: 6vw;
 }
@@ -23,7 +31,6 @@ body {
 #footer-logo {
     font-size: 7.7vw;
     text-align: center;
-    margin-top: 10vh;
 }
 
 .highlighted-text {
@@ -34,7 +41,7 @@ body {
 
 .highlighted-text:hover {
     -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 @media (min-width: 768px) {
@@ -44,6 +51,16 @@ body {
     #header-logo {
         font-size: 3vw;
     }
+}
+
+.bottom-links {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-links a {
+    margin: 0 3vw 0 0;
+    color: black;
 }
 
 /* ----------------------------------------------
@@ -58,24 +75,25 @@ body {
  * animation shadow-drop-center
  * ----------------------------------------
  */
- @-webkit-keyframes shadow-drop-center {
+
+@-webkit-keyframes shadow-drop-center {
     0% {
-      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     }
     100% {
-      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
     }
-  }
-  @keyframes shadow-drop-center {
+}
+
+@keyframes shadow-drop-center {
     0% {
-      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     }
     100% {
-      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
     }
-  }
-  
+}
