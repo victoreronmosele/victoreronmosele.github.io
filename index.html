@@ -10,31 +10,68 @@
       dataLayer.push(arguments);
     }
     gtag("js", new Date());
-
     gtag("config", "G-LHJPKX9482");
   </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="Description" content="Victor Eronmosele's personal website" />
+  <meta name="Description" content="Victor Eronmosele's is a software engineer building apps and developer tools." />
   <meta name="color-scheme" content="dark light" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   <link rel="manifest" href="/site.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap" rel="stylesheet" />
   <title>Victor Eronmosele</title>
   <style>
-    html, body {
-      height: 100%;
-      margin: 0;
+    * {
+      color: #000;
+      font-family: 'Public Sans', system-ui, sans-serif;
+      font-size: 15px;
+      line-height: 1.5;
+      font-weight: 400;
+      margin: 0 0 12px 0;
+      text-wrap: pretty;
+    }
+    html,
+    body {
+      background-color: #fff;
+      -webkit-tap-highlight-color: transparent;
+      -webkit-font-smoothing: antialiased;
+    }
+    main {
+      padding: max(24px, 2vw);
+    }
+    a {
+      text-decoration-style: dotted;
+      text-underline-offset: 2px;
+      padding: 8px;
+      margin: -8px;
+    }
+    .social {
       display: flex;
-      align-items: center;
-      justify-content: center;
+      gap: 20px;
+      margin-top: 4px;
     }
   </style>
 </head>
 
 <body>
-  Victor Eronmosele
+  <main>
+    <h1>Victor Eronmosele</h1>
+    <p>
+      Software engineer building apps and developer tools.
+    </p>
+    <nav class="social" aria-label="Social links">
+      <a href="/github/" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="/linkedin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="/youtube" target="_blank" rel="noopener noreferrer">YouTube</a>
+      <a href="/blog/" target="_blank" rel="noopener noreferrer">Blog</a>
+      <a href="/mail/" target="_blank" rel="noopener noreferrer">Contact</a>
+      <a href="resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+    </nav>
+  </main>
 </body>
 
 </html>
